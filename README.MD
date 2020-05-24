@@ -1,25 +1,30 @@
 # Development 4: Opdracht Werkstuk
 
-## Short
-Podiumaanhuis.be is a new website that offers full video's of theater pieces. It's created very quickly using Webflow, a  very simple website creating platform. Now the organisation wants to recreate the app from scratch, using HTML, CSS and Javascript.
 
-One feature is the option to filter the video entries based on genres and audience. Using the JSON fetch the entries, show them on the page, and recreate the filter like it is presented on podiumaanhuis.be.
+## approach
 
-## Requirements
-- Write out your approach in the readme.md file. Do a functional analysis of the existing app. Plan your data, functions and the flow of your app.
-- It must work. This is the most important requirement. Don't worry too much about clean code or functional programming in the beginning. Create the app, and iterate.
-- Push your iterations to github.
-- Try to make your code as functional & pure as possible.
-- Try to avoid side effects as much as possible.
-- Write tests for at least 2 functions
-- Show the result on the webpage
-- COMMENTS COMMENTS COMMENTS
+- Ik ben gestart met de site te bestuderen
+- Hierna heb ik de ruwe html en css van de pagina geschreven
+- Daarna heb ik wat geëxperimenteerd met functioneel programmeren en hoe ik dit op deze oefening kan toepassen
+- Ik haal de json lokaal binnen
+- Ik ben begonnen met de buttons reactief te maken en deze dan de actieve klasse mee te geven en in een aparte array te stoppen
+- Hierna wordt er dan een nieuwe array gemaakt met de objecten die voldoen aan de genre van deze actieve arrays
+- Deze objecten worden nu als een div op de pagina geprint, de makeDivs wordt geloopt om ze zo allemaal te printen
+- De filters wissen button wordt weergegeven als er een filter is geselecteerd en werkt ook
+- De tests snap ik niet zo goed dus ik heb deze ook niet kunnen maken
 
-## Resources
-https://www.podiumaanhuis.be/
 
-https://github.com/pmcp/ehbdev4werkstuk
 
-https://docs.google.com/presentation/d/1tlhfJPTmw0MP4kfKSdszo4bUSKwG9xRcuSmzhbkiNaw/edit?usp=sharing
+## functional analysis
 
+- Als je de site opent zijn alle video's geladen en de filters staan niet op
+- Je kan op een filter drukken dan worden de video's gefiltert op dat genre/ doelgroep
+- Hierbij verschijnt ook de filters wissen button
+- Je kan meerder filters tegelijk selecteren 
+- Als je een doelgroep en een genre selecteert worden alleen de genres weergegeven die ook tot die doelgroep behoren
+- Bij het drukken op filters wissen worden alle filters verwijdert en zijn alle video's terug zichtbaar
+- Dit gebeurt ook als je al je filters handmatig deselecteerd
+- De video's worden op volgorde van hun array afgedrukt en dus niet bv. alle dezelfde genres achter elkaar
+- Het is mogelijk om bv. alletwee de filters van de doelgroep op te zetten ookal heeft dit geen nut
+- Er worden maximum 15 video's afgebeeld je kan wel naar de volgende pagina navigeren
  
