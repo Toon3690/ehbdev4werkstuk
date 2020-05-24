@@ -10,7 +10,7 @@
 - Ik ben begonnen met de buttons reactief te maken en deze dan de actieve klasse mee te geven en in een aparte array te stoppen
 - Hierna wordt er dan een nieuwe array gemaakt met de objecten die voldoen aan de genre van deze actieve arrays
 - Deze objecten worden nu als een div op de pagina geprint, de makeDivs wordt geloopt om ze zo allemaal te printen
-- De filters wissen button wordt weergegeven als er een filter is geselecteerd en werkt ook
+- De 'filters wissen' button wordt weergegeven als er een filter is geselecteerd en werkt ook
 - De tests snap ik niet zo goed dus ik heb deze ook niet kunnen maken
 
 
