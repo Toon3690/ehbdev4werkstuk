@@ -1,7 +1,7 @@
 # Development 4: Opdracht Werkstuk
 
 
-## approach
+## Approach
 
 - Ik ben gestart met de site te bestuderen
 - Hierna heb ik de ruwe html en css van de pagina geschreven
@@ -15,7 +15,7 @@
 
 
 
-## functional analysis
+## Functional analysis
 
 - Als je de site opent zijn alle video's geladen en de filters staan niet op
 - Je kan op een filter drukken dan worden de video's gefiltert op dat genre/ doelgroep
