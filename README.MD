@@ -12,6 +12,7 @@
 - Deze objecten worden nu als een div op de pagina geprint, de makeDivs wordt geloopt om ze zo allemaal te printen
 - De 'filters wissen' button wordt weergegeven als er een filter is geselecteerd en werkt ook
 - De tests snap ik niet zo goed dus ik heb deze ook niet kunnen maken
+- Ik heb zo goed mogelijk proberen functioneel te programmeren ookal is dit niet helemaal gelukt
 
 
 
